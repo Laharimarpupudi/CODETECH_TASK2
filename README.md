@@ -30,3 +30,7 @@ This Python project aims to create a student grade tracking and management syste
 8. **Modularity and Extensibility**: The program should be designed in a modular and extensible way, allowing for easy addition of new features or modifications in the future. This could involve breaking the program into separate functions or classes, each responsible for a specific aspect of the functionality.
 
 Overall, this project aims to provide a comprehensive solution for tracking and managing student grades, offering users a convenient way to monitor their academic progress and performance.
+
+
+**Example output :**
+![Screenshot 2024-06-14 173246](https://github.com/Laharimarpupudi/CODETECH_TASK2/assets/170809775/f41f6381-89a4-4c90-8459-d37d2a558229)
