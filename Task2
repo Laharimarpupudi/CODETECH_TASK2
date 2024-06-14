@@ -1,0 +1,29 @@
+def calculate_gpa(average_grade):
+    if average_grade >= 90:
+        return 'A'
+    elif average_grade >= 80:
+        return 'B'
+    elif average_grade >= 70:
+        return 'C'
+    elif average_grade >= 60:
+        return 'D'
+    else:
+        return 'F'
+
+def main():
+    print("Welcome to the Student Grade Tracker")
+    num_subjects = int(input("Enter the number of subjects: "))
+
+    grades = []
+    for i in range(num_subjects):
+        grade = float(input(f"Enter the grade for subject {i+1}: "))
+        grades.append(grade)
+
+    average_grade = sum(grades) / num_subjects
+    gpa = calculate_gpa(average_grade)
+
+    print(f"The average grade is: {average_grade}")
+    print(f"The GPA is: {gpa}")
+
+if __name__ == "__main__":
+    main()
